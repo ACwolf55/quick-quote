@@ -3,6 +3,8 @@
   display: flex;
   flex-direction:column;
   align-items: center;
+  height: 100vh;
+  overflow: scroll ;
 
 }
 
@@ -34,8 +36,7 @@ background-color: plum;
 
 
 #our-forms{
-  /* border: black solid 1px; */
-  width:300px;
+  display: none;
   
 
 }
@@ -65,10 +66,28 @@ background-color: plum;
 
 }
 
+.airtable-embed{
+  margin:20px;
+  height:900px;
+  width:1300px;
+
+
+}
+
 @media (max-width:800px) {
   .banner-logo{
     width:160px;
     height: 130px
   }
+  #our-forms{
+    display: block;
+    /* border: black solid 1px; */
+    width:300px;
+      }
+
+      .airtable-embed{
+      display:none;
+      
+      }
 
 }
