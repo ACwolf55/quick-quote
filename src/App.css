@@ -10,7 +10,8 @@
 
 .banner-logo{
   width:600px;
-  height: 130px
+  height: 130px;
+  z-index: -1;
 }
 
 header{
@@ -27,6 +28,7 @@ header{
   width:34vw;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .header-side{
@@ -50,13 +52,22 @@ background-color: plum;
 
 .link-row{
   border: rgb(0, 0, 0) solid 1px;
-  padding: 7px;
+  padding: 15px;
 
 }
 
 .button-link{
-  /* border: rgb(86, 214, 103) solid 1px; */
+  border: rgb(56, 56, 56) solid 2px;
+  height: 50px;
+  background-color: rgb(250, 225, 255);
+  border-radius: 25px;
+  padding:10px;
+  cursor: pointer;
                
+}
+.button-link:hover{
+  background-color: rgb(181, 132, 255);
+  height: 40px;
 }
 
 .descrip{
